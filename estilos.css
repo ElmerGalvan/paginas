@@ -1,0 +1,184 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(original.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: helvetica;
+    min-width: 950px;
+}
+
+/* cabecera */
+
+header {
+  width: 100%;
+  height: 90px;
+  background: rgb(242, 242, 242);
+  position: fixed;
+}
+
+#escudo {
+  height: 80%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 200px;
+}
+
+/*menu*/
+
+#menu {
+  float: right;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  background: #E1CC4F;
+  margin-right: 20px;
+}
+
+header nav ul li a:hover {
+  background: #FE0000;
+}
+
+#paginainicio {
+  background: #FE0000;
+}
+
+
+/*portada*/
+
+#capita {
+  padding-top: 90px;
+  width: 100%;
+  height: 500px;
+  color: white;
+}
+
+.contenedor {
+  margin-top: 230px;
+}
+
+#titulo {
+  font-size: 50px;
+  text-align: center;
+}
+
+#subtitulo {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*  cuerpo y artículos  */
+
+#segundaparte {
+background: rgb(249, 246, 245, .9);
+padding: 50px;
+}
+
+#titulogrande {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(68,68,68);
+}
+
+.articulos {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
+  background: rgba(24,8,33,.1);
+  box-shadow: 0 5px 5px 3px rgba(0,0,0,0.25);
+  overflow: hidden;
+  text-align: justify;
+}
+.dibujitos {
+  width: 400px;
+  float: right;
+  display: inline;
+  padding: 20px;
+}
+
+article p {
+
+  display: inline;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(60, 60, 60);
+}
+
+.parrafos {
+  text-align: justify;
+  padding-top: : 20px;
+  margin-right: 420px;
+  color: rgb(50, 50, 50);
+}
+
+hr {
+  padding-bottom: 15px;
+  background-color: ;
+  border: none;
+}
+/*segundaventana*/
+
+
+#ultimaseccion {
+  width: 100%;
+  height: 300px;
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+.vinculo {
+  width: 20%;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+/*pie de página*/
+
+footer {
+  background: white;
+  width: 100%;
+  height: 150px;
+  background: rgb(242, 242, 242);
+}
+
+.iconosfooter {
+  height: 40px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+.iconoleft {
+  float: left;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+#facebook {
+  margin-right: 350px;
+}
